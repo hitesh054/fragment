@@ -1,0 +1,138 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:id="@+id/appbar_lay"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#ffffff"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
+        <!--<android.support.design.widget.CollapsingToolbarLayout-->
+            <!--android:id="@+id/collapsing_toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:contentScrim="?attr/colorPrimary"-->
+            <!--app:layout_scrollFlags="scroll|exitUntilCollapsed"-->
+            <!--app:titleEnabled="false"-->
+            <!--app:statusBarScrim="@null"-->
+            <!--android:fitsSystemWindows="true">-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="10dp"
+                    android:layout_gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="130dp"
+                        android:layout_height="130dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="6dp"
+                        android:src="@drawable/driver1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Driver details"
+                        android:layout_marginLeft="190dp"
+                        android:layout_marginTop="6dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_person_black_24dp"
+                        android:layout_marginTop="44dp"
+                        android:layout_marginLeft="170dp"
+                        />
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="200dp"
+                        android:textSize="18dp"
+                        android:layout_marginTop="44dp"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_directions_bus_black_24dp"
+                        android:layout_marginTop="72dp"
+                        android:layout_marginLeft="160dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MH09CD 3022"
+                        android:layout_marginLeft="210dp"
+                        android:textSize="18dp"
+                        android:layout_marginTop="72dp"
+                        android:textColor="@color/black"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_call_black_24dp"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginLeft="170dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9068295107"
+                        android:id="@+id/caller"
+                        android:layout_marginLeft="220dp"
+                        android:textSize="18dp"
+                        android:layout_marginTop="100dp"
+                        android:textColor="@color/green"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Age:"
+                        android:layout_marginLeft="160dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="128dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="32yrs"
+                        android:layout_marginLeft="220dp"
+                        android:textSize="18dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="130dp"
+                        />
+
+
+                </android.support.v7.widget.CardView>
+
+            </RelativeLayout>
+
+
+
+
+        <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp"
+        tools:context=".MapsActivity_for_request_pages" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/driver1"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/profile_background"/>
+    <ImageView
+        android:id="@+id/imgchoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_camera"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="227dp"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_black_24dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+
+        />
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="269dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="18dp"
+        android:inputType="textPersonName"
+        android:hint="आपले नांव लिहा"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_call_black_24dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+
+        />
+    <EditText
+        android:id="@+id/ed_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="309dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="18dp"
+        android:inputType="phone"
+        android:hint="आपला फोन नंबर प्रविष्ट करा"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_email_black_24dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="360dp"
+
+        />
+    <EditText
+        android:id="@+id/ed_adhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="349dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="18dp"
+        android:hint="आपला आधार कार्ड नंबर भरा"
+        android:inputType="phone"
+        />
+    <Button
+
+        android:id="@+id/save"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/buttonshape"
+        android:padding="3dp"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

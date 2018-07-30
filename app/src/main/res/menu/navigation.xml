@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_guest"
+        android:icon="@drawable/profileuser"
+        android:title="@string/title_1"
+        />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/profileuser"
+        android:title="@string/title_2"
+        />
+
+    <item
+        android:id="@+id/navigation_driver"
+        android:icon="@drawable/driveric"
+        android:title="@string/title_3" />
+
+</menu>
